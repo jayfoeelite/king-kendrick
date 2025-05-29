@@ -230,7 +230,7 @@ function App() {
                 <img 
                   src="https://res.cloudinary.com/dr25ekobh/image/upload/v1748536974/IMG_0299_jfal9l.jpg"
                   alt="King Kendrick x Karl Kani"
-                  className="w-full h-[400px] object-cover rounded-lg mb-6"
+                  className="w-full h-[400px] object-top object-cover rounded-lg mb-6"
                 />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-[#b17d05]">Karl Kani Makes NIL History with King Kendrick Signing and '90s Kid Campaign</h3>
