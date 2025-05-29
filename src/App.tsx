@@ -166,6 +166,56 @@ function App() {
                 </div>
               </div>
             </div>
+            <div>
+              <h3 className="text-2xl font-bold mb-6 text-[#b17d05]">Highlight Reels</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <div className="aspect-[9/16] bg-gray-900 rounded-lg overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/S8kHpgG-aLI"
+                    title="King Kendrick Highlight Reel 1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="aspect-[9/16] bg-gray-900 rounded-lg overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/e2tzZpK3FQU"
+                    title="King Kendrick Highlight Reel 2"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="aspect-[9/16] bg-gray-900 rounded-lg overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/ybyTynzXWz8"
+                    title="King Kendrick Highlight Reel 3"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="aspect-[9/16] bg-gray-900 rounded-lg overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/3wsMeoy0378"
+                    title="King Kendrick Highlight Reel 4"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="aspect-[9/16] bg-gray-900 rounded-lg overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/7MgWVgvWR6s"
+                    title="King Kendrick Highlight Reel 5"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -175,6 +225,35 @@ function App() {
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl font-bold mb-12 text-center">Latest News</h2>
           <div className="space-y-8">
+            <div className="bg-black/50 p-8 rounded-2xl backdrop-blur-sm">
+              <div className="mb-6">
+                <img 
+                  src="https://res.cloudinary.com/dr25ekobh/image/upload/v1748536974/IMG_0299_jfal9l.jpg"
+                  alt="King Kendrick x Karl Kani"
+                  className="w-full h-[400px] object-cover rounded-lg mb-6"
+                />
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-[#b17d05]">Karl Kani Makes NIL History with King Kendrick Signing and '90s Kid Campaign</h3>
+              <p className="text-lg mb-6">
+                In a groundbreaking move that bridges generations of urban fashion and sports culture, legendary streetwear brand Karl Kani has made history by signing rising basketball phenomenon King Kendrick to a groundbreaking NIL deal, marking the brand's first-ever NIL partnership.
+              </p>
+              <p className="text-lg mb-6">
+                The partnership launches with the '90s Kid Campaign, a nostalgic yet forward-looking initiative that celebrates both Karl Kani's iconic legacy and the fresh energy King Kendrick brings to the court. This collaboration represents more than just a sponsorship deal; it's a cultural moment that connects the golden era of streetwear with basketball's exciting future.
+              </p>
+              <p className="text-lg mb-6">
+                King Kendrick, known for his exceptional skills and magnetic presence both on and off the court, embodies the perfect blend of athletic excellence and cultural influence that Karl Kani has always celebrated. This partnership sets a new precedent in the NIL landscape, demonstrating how legacy brands can meaningfully connect with the next generation of athletes.
+              </p>
+              <div className="text-sm text-gray-400 mb-4">May 15, 2025</div>
+              <a 
+                href="https://stupiddope.com/2025/05/karl-kani-makes-nil-history-with-king-kendrick-signing-and-90s-kid-campaign/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#b17d05] hover:underline"
+              >
+                Read Full Article →
+              </a>
+            </div>
+
             <div className="bg-black/50 p-8 rounded-2xl backdrop-blur-sm">
               <h3 className="text-2xl font-bold mb-4 text-[#b17d05]">King Kendrick is a Clear X-Factor</h3>
               <p className="text-lg mb-6">
