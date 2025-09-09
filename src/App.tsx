@@ -164,6 +164,15 @@ function App() {
                     allowFullScreen
                   ></iframe>
                 </div>
+                <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/KVI57JXStKU"
+                    title="King Kendrick Game Highlights"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
             </div>
             <div>
