@@ -1,5 +1,6 @@
 import React from 'react';
 import { Instagram, Mail, Trophy, User, School, Brain } from 'lucide-react';
+import InstagramEmbed from './components/InstagramEmbed';
 
 function App() {
   return (
@@ -223,6 +224,28 @@ function App() {
                     allowFullScreen
                   ></iframe>
                 </div>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold mb-6 text-[#b17d05]">Instagram Reels</h3>
+              <div className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
+                <InstagramEmbed url="https://www.instagram.com/reel/Db9D6mdo6li/" />
+                <InstagramEmbed url="https://www.instagram.com/reel/Db55V2hx3bP/" />
+                <InstagramEmbed url="https://www.instagram.com/reel/Db2DSRPO4zH/" />
+                <InstagramEmbed url="https://www.instagram.com/reel/Dal72VUA7lW/" />
+                <InstagramEmbed url="https://www.instagram.com/reel/DLI3ZczSr-J/" />
+                <InstagramEmbed url="https://www.instagram.com/reel/DZC_RNisELx/" />
+                <InstagramEmbed url="https://www.instagram.com/reel/Db6RqD5JZr0/" />
+              </div>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold mb-6 text-[#b17d05]">Instagram Posts</h3>
+              <div className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
+                <InstagramEmbed url="https://www.instagram.com/p/Db8oMV9Dq79/" caption />
+                <InstagramEmbed url="https://www.instagram.com/p/Db4afvJjvqk/" caption />
+                <InstagramEmbed url="https://www.instagram.com/p/DZbRN-4lArN/" caption />
+                <InstagramEmbed url="https://www.instagram.com/p/DXqHTy6ll1z/" caption />
+                <InstagramEmbed url="https://www.instagram.com/p/Dbjc09Qlt3w/" caption />
               </div>
             </div>
           </div>
