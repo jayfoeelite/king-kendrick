@@ -44,13 +44,15 @@ function InstagramEmbed({ url, caption = false }: InstagramEmbedProps) {
   }, [url]);
 
   return (
-    <blockquote
-      className="instagram-media"
-      data-instgrm-permalink={url}
-      data-instgrm-captioned={caption ? true : undefined}
-      data-instgrm-version="14"
-      style={{ background: '#000', margin: 'auto', width: '100%' }}
-    />
+    <div className="bg-gray-900 rounded-lg overflow-hidden p-2 flex justify-center">
+      <blockquote
+        className="instagram-media"
+        data-instgrm-permalink={url}
+        data-instgrm-captioned={caption ? true : undefined}
+        data-instgrm-version="14"
+        style={{ margin: 0, width: '100%', border: 0 }}
+      />
+    </div>
   );
 }
 
